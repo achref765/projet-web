@@ -1,11 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login et Sign-Up</title>
+  <!-- Lien vers Bulma -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  
+
 </head>
 <body>
-    
+  <!-- Section principale -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title has-text-centered">Bienvenue</h1>
+
+      <!-- Formulaire de connexion -->
+      <div class="box">
+        <h2 class="subtitle has-text-centered">Connexion</h2>
+        <form>
+          <!-- Champ Email -->
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Entrez votre email" required>
+            </div>
+          </div>
+          <!-- Champ Mot de passe -->
+          <div class="field">
+            <label class="label">Mot de passe</label>
+            <div class="control">
+              <input class="input" type="password" placeholder="Entrez votre mot de passe" required>
+            </div>
+          </div>
+          <!-- Bouton -->
+          <div class="field">
+            <button class="button is-primary is-fullwidth">Se connecter</button>
+          </div>
+        </form>
+      </div>
+
+      <!-- Formulaire d'inscription -->
+      <div class="box">
+        <h2 class="subtitle has-text-centered">Inscription</h2>
+        <form>
+          <!-- Champ Nom -->
+          <div class="field">
+            <label class="label">Nom</label>
+            <div class="control">
+              <input class="input" type="text" placeholder="Entrez votre nom" required>
+            </div>
+          </div>
+          <!-- Champ Email -->
+          <div class="field">
+            <label class="label">Email</label>
+            <div class="control">
+              <input class="input" type="email" placeholder="Entrez votre email" required>
+            </div>
+          </div>
+          <!-- Champ Mot de passe -->
+          <div class="field">
+            <label class="label">Mot de passe</label>
+            <div class="control">
+              <input class="input" type="password" placeholder="Entrez votre mot de passe" required>
+            </div>
+          </div>
+          <!-- Bouton -->
+          <div class="field">
+            <button class="button is-link is-fullwidth">S'inscrire</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
